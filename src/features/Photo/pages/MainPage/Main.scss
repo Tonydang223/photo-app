@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.photo-main {
+  margin: 0;
+  max-width: 1536px;
+  .text-center {
+    text-align: center;
+    line-height: 5rem;
+    width: 100%;
+    &__inside {
+      text-decoration: none;
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      color: rgb(20, 20, 20);
+    }
+
+  }
+}
